@@ -37,7 +37,7 @@ def get_filters():
         if month in MONTHS:
             break
 
-    # get user input for day of week (all, monday, tuesday, ... sunday)
+    # get user input for day of week
     print("\nChoose any day of the following: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or all")
     while True:
         day = input('ENTER A DAY: ').lower()
