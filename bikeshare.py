@@ -25,7 +25,7 @@ def get_filters():
     # get user input for city (chicago, new york city, washington).
     print("\nChoose a City: New York City, Chicago or Washington?")
     while True:
-       city = input('ENTER A CITY: ').lower()
+       city = input('Enter any of the three city: ').lower()
        if city in CITIES:
            break
 
